@@ -3,7 +3,8 @@ require "jquery-sliders-rails/version"
 module Jquery
   module Sliders
     module Rails
-      # Your code goes here...
+      class Engine < ::Rails::Engine
+      end
     end
   end
 end
